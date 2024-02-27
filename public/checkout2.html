@@ -1,0 +1,256 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pedidos Ya</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://live.pystatic.com/webassets/pwa/icons/icon-384x384.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://live.pystatic.com/webassets/pwa/icons/icon-384x384.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://live.pystatic.com/webassets/pwa/icons/icon-384x384.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://live.pystatic.com/webassets/pwa/icons/icon-384x384.png">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="https://live.pystatic.com/webassets/pwa/icons/icon-384x384.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="assets/css/theme.css">
+
+</head>
+
+<body>
+    <main class="main" id="top">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" data-navbar-on-scroll="data-navbar-on-scroll">
+			<div class="container">
+				<div class="d-flex align-items-center">
+					<a class="navbar-brand" href="index.html">
+						<img class="logo" src="https://cdn.worldvectorlogo.com/logos/pedidosya.svg" alt="logo" style="width: 150px;" />
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+	  
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto d-flex align-items-center">
+						<li class="nav-item">
+							<form class="row gx-2 gy-2 align-items-center">
+								<div class="col">
+									<div class="input-group-icon"><i class="fas fa-map-marker-alt text-danger input-box-icon"></i>
+										<input class="form-control input-box form-foodwagon-control" id="inputDelivery" type="text" placeholder="Locales, Platos Y Productos" />
+									</div>
+								</div>
+								<div class="d-grid gap-3 col-sm-auto">
+									<button class="btn btn-danger" type="submit">Buscar</button>
+								</div>
+							</form>
+						</li>
+					
+
+                            <li class="nav-item ms-8"> <!-- Añadido margen a la izquierda -->
+                                <a class="nav-link" href="kfc.html">
+
+                                    <img src="assets/img/gallery/grocery-store.png" alt="Carrito de compras" style="width: 30px; height: 30px;">
+                                                                              
+                                </a>
+                            </li>
+                  </div>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	  </main>
+    
+<div class="container">
+    <div class="checkoutLayout">
+
+        
+        <div class="returnCart">
+            <div class="list">
+
+                <div class="item">
+                    <img src="images/1.webp">
+                    <div class="info">
+                       
+                    </div>
+                    <div class="quantity">5</div>
+                    <div class="returnPrice">$433.3</div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="right">
+            <h1 style="color: white;">Checkout</h1>
+
+            <div class="form">
+                <div class="group">
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" name="name" id="name">
+                </div>
+    
+                <div class="group">
+                    <label for="phone">Numero de Telefono</label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+    
+                <div class="group">
+                    <label for="address">Direccion</label>
+                    <input type="text" name="address" id="address">
+                </div>
+    
+               
+    
+                <div class="group">
+                  <label for="address">Cupon</label>
+                  <input type="text" name="address" id="address">
+              </div>
+            </div>
+            <div class="return">
+                <div class="row">
+                    <div>Cantidad Total</div>
+                    <div class="totalQuantity">70</div>
+                </div>
+                <div class="row">
+                    <div>Precio Total</div>
+                    <div class="totalPrice">$900</div>
+                </div>
+            </div>
+            <button class="buttonCheckout">
+              <a href="" style="text-decoration: none; color: inherit;">Pagar</a>
+          </button>          </div>
+    </div>
+</div>
+
+
+<script src="checkout.js"></script>
+
+<script>
+  function redirigirPagina() {
+      var selectedOption = document.getElementById("country").value;
+
+      // Verificamos si la opción seleccionada es "Pago Online"
+      if (selectedOption === "pago-online") {
+          // Redirigimos a la página de pagos.html
+          window.location.href = "pagos.html";
+      }
+  }
+</script>
+
+<section class="py-0 pt-7 bg-1000">
+
+    <div class="container">
+      <div class="row justify-content-lg-between">
+        <h5 class="lh-lg fw-bold text-white">Ciudades</h5>
+        
+    
+      <hr class="text-900" />
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+          <h5 class="lh-lg fw-bold text-white">PEDIDOS YA</h5>
+          <ul class="list-unstyled mb-md-4 mb-lg-0">
+            <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Sobre Nosotros</a></li>
+            <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Equipo</a></li>
+            <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Careers</a></li>
+            <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">blog</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 col-xxl-2 col-lg-3 mb-3">
+          <h5 class="lh-lg fw-bold text-white">CONTACTO</h5>
+          <ul class="list-unstyled mb-md-4 mb-lg-0">
+            <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Ayuda &amp; Soporte</a></li>
+            <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Restaurantes </a></li>
+            <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Trabaja con Nosotros</a></li>
+            <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Se un Repartidor</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+          <h5 class="lh-lg fw-bold text-white">LEGAL</h5>
+          <ul class="list-unstyled mb-md-4 mb-lg-0">
+            <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Terminos &amp; Condiciones</a></li>
+            <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Reembolsos &amp; Cancelaciones</a></li>
+            <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Privacidad</a></li>
+            <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Cookies</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-12 col-md-8 col-lg-6 col-xxl-4">
+          <div class="text-start my-3"> <a href="#!">
+
+          <h3 class="text-500 my-4">Recibe descuentos exclusivos<br />en tu correo electronico</h3>
+          <div class="row input-group-icon mb-5">
+            <div class="col-auto"><i class="fas fa-envelope input-box-icon text-500 ms-3"></i>
+              <input class="form-control input-box bg-800 border-0" type="email" placeholder="Enter Email" aria-label="email" />
+            </div>
+            <div class="col-auto">
+              <button class="btn btn-primary" type="submit">Subscribete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border border-800" />
+      <div class="row flex-center pb-3">
+        <div class="col-md-6 order-0">
+          <p class="text-200 text-center text-md-start">All rights Reserved &copy; Pedidos Ya, 2023</p>
+        </div>
+        <div class="col-md-6 order-1">
+          <p class="text-200 text-center text-md-end"> Maria y Alexandra&nbsp;
+            <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#FFB30E" viewBox="0 0 16 16">
+              <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
+            
+          </p>
+        </div>
+      </div>
+    </div><!-- end of .container-->
+
+  </section>
+  <!-- <section> close ============================-->
+  <!-- ============================================-->
+
+
+</main>
+
+<!-- loader -->
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/scrollax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

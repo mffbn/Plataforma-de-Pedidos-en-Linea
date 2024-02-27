@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Megabox KFC",
+        "price": 120.00,
+        "image": "images/firstcombo.webp"
+    },
+    {
+        "id": 2,
+        "name": "Combo Personal",
+        "price": 150.00,
+        "image": "images/combo2.webp"
+    },
+    {
+        "id": 3,
+        "name": "Chicken Sandwich",
+        "price": 250,
+        "image": "images/combo3.webp"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Pake No Cocines",
+        "price": 120,
+        "image": "images/combo4.webp"
+    },
+    {
+        "id": 5,
+        "name": "Bucket 9 Piezas",
+        "price": 300,
+        "image": "images/combo5.webp"
+    },
+    {
+        "id": 6,
+        "name": "Pake Ahorres",
+        "price": 220,
+        "image": "images/combo6.webp"
+    }
+]
